@@ -1,6 +1,6 @@
 # CVS $Revision$ $Author$ -- Sat Jan  4 10:54:50 2014 -- reformated by prettylst.pl v1.50 (build 22746)
-CAMPAIGN:Starwars
-GAMEMODE:Starwars
+CAMPAIGN:Star Wars
+GAMEMODE:Starwars_d20
 TYPE:Wizards of the Coast
 RANK:1
 STATUS:ALPHA
@@ -14,7 +14,7 @@ SOURCELONG:Starwars
 SOURCESHORT:SW
 ISOGL:NO
 
-INFOTEXT:Starwars
+INFOTEXT:Star Wars
 
 # Do not remove the EXTRAFILE comment.
 #EXTRAFILE:OGL.txt
@@ -24,6 +24,7 @@ DATACONTROL:sw__datacontrols.lst
 SAVE:sw__saves.lst
 SIZE:sw__sizes.lst
 STAT:sw__stats.lst
+RACE:*/_universal/races.lst
 
 # Basics
 ABILITY:sw_abilities.lst
@@ -34,12 +35,13 @@ EQUIPMENT:sw_equip.lst
 ABILITY:sw_feats.lst
 KIT:sw_kits.lst
 LANGUAGE:sw_languages.lst
+ARMORPROF:sw_profs_armor.lst
 WEAPONPROF:sw_profs_weapon.lst
 RACE:sw_races.lst
 SKILL:sw_skills.lst
 TEMPLATE:sw_templates.lst
 
-INFOTEXT:Supports 6.7.04
+INFOTEXT:Supports 6.07.07
 # ENTRY DATE: 2017-10
 # LST MONKEY: Bahamut
 # RELEASE REVIEW #
